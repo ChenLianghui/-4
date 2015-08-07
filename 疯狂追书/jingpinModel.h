@@ -1,0 +1,15 @@
+//
+//  jingpinModel.h
+//  疯狂追书
+//
+//  Created by qianfeng01 on 15-7-18.
+//  Copyright (c) 2015年 陈良辉. All rights reserved.
+//
+
+#import "JSONModel.h"
+#import "fenleiModel.h"
+@interface jingpinModel : JSONModel
+@property (nonatomic,copy)NSString *title;
+@property (nonatomic,strong)NSArray <fenleiModel>*jingpin_data;
+
+@end
